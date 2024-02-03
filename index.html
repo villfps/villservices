@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>VILL'S COMPUTER SERVICES</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=YourGamingFont&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        html, body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Press Start 2P', cursive;
+            background: linear-gradient(1000deg, #000033, #000000); /* Updated to black and dark blue gradient */
+            color: #ffffff;
+        }
+        section {
+            padding: 40px 0;
+        }
+        h1, h2, h3, h4, h5, h6 {
+            color: #e5c57f;
+        }
+        .navbar {
+            background-color: #000000;
+        }
+        .navbar-brand {
+            font-family: 'Press Start 2P', cursive;
+            color: #e5c57f;
+        }
+        .navbar-dark .navbar-toggler-icon {
+            background-color: #e5c57f;
+        }
+        .navbar-toggler {
+            border-color: #e5c57f;
+        }
+        .navbar-nav .nav-link {
+            color: #000000;
+        }
+        .navbar-nav .nav-link:hover {
+            color: #e5c57f;
+        }
+        .navbar-nav .nav-link.background-section {
+            background-color: #e5c57f;
+            border-radius: 8px;
+            padding: 5px 10px;
+        }
+        .btn-primary {
+            background-color: #e5c57f;
+            border-color: #e5c57f;
+        }
+        .btn-primary:hover {
+            background-color: #c8ab7b;
+            border-color: #c8ab7b;
+        }
+        .menu-item,
+        .gallery-item {
+            border: 6px solid #000000;
+            border-radius: 8px;
+            overflow: hidden;
+            transition: transform 0.3s ease-in-out;
+        }
+        .menu-item img,
+        .gallery-item img {
+            max-width: 100%;
+            border-radius: 8px;
+            transition: transform 0.3s ease-in-out;
+        }
+        .menu-item:hover,
+        .gallery-item:hover {
+            transform: scale(1.05);
+        }
+        .menu-item img:hover,
+        .gallery-item img:hover {
+            transform: scale(1.1);
+        }
+        h2 {
+            background-color: #000000;
+            padding: 10px;
+            border-radius: 8px;
+        }
+        .gallery-item {
+            border: 8px solid #e5c57f;
+            border-radius: 8px;
+            overflow: hidden;
+            transition: transform 0.3s ease-in-out;
+        }
+        .gallery-item img {
+            max-width: 100%;
+            border-radius: 0; /* Set border-radius to 0 to fit the border to the picture */
+            transition: transform 0.3s ease-in-out;
+        }
+        .gallery-item:hover {
+            transform: scale(1.05);
+        }
+        .gallery-item img:hover {
+            transform: scale(1.1);
+        }
+    </style>
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+    <div class="container">
+        <a class="navbar-brand" href="#">VILL'S COMPUTER SERVICES</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                    <a class="nav-link background-section" href="#hero">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link background-section" href="#about">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link background-section" href="#Services">Services</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link background-section" href="#gallery">Gallery</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link background-section" href="#contact">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+<!-- Hero Section -->
+<section id="hero" class="py-5">
+    <div class="container-fluid text-center">
+        <h1 class="display-2 mt-3">VILL'S COMPUTER SERVICES</h1>
+        <p class="lead">A fool with a tool is still a fool</p>
+    </div>
+</section>
+
+<!-- About Us Section -->
+<section id="about" class="py-5">
+    <div class="container">
+        <h2 class="display-4 text-center mb-5">About</h2>
+        <div class="gallery-item">
+            <img src="vill1.jpg" alt="Sage1" class="img-fluid mb-4">
+        </div>
+        <p class="lead text-center">Hello! I am Christian Timothy Villacorta but most people call me Vill. I am an ICT student currently pursuing the Information and Communication Technologies at Mary Immaculate Parish Special School(MIPSS). I am passionate about learning and exploring more about the world of technology and when I have a spare or free time, I like to play competitive games such as Valoran & CSGO2 but when I don't feel like gaming, you can find me watching animes or reading mangas.</p>
+    </div>
+</section>
+<!-- Services Section -->
+<section id="Services" class="py-5">
+    <div class="container">
+        <h2 class="display-4 text-center mb-5">Services</h2>
+        <div class="row">
+            <div class="col-md-6">
+                <p>Web Designing</p>
+                <p>PC Clean</p>
+                <p>Custom Website</p>
+                <p>Reformat / PC Reset</p>
+                <p>Cracked offline games download</p>
+            </div>
+            <div class="col-md-6">
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Gallery Section -->
+<section id="gallery" class="py-5">
+    <div class="container">
+        <h2 class="display-4 text-center mb-5">Gallery</h2>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="gallery-item">
+                    <img src="pc1.jfif  " alt="Sage1" class="img-fluid mb-4">
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="gallery-item">
+                    <img src="pc2.jfif" alt="Neon" class="img-fluid mb-4">
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="gallery-item">
+                    <img src="pc3.jfif" alt="Sage3" class="img-fluid mb-4">
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="gallery-item">
+                    <img src="pc4.jfif" alt="Killjoy2" class="img-fluid mb-4">
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="gallery-item">
+                    <img src="pc5.jfif" alt="Viper&Jett" class="img-fluid mb-4">
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="gallery-item">
+                    <img src="pc6.jfif" alt="Jett3" class="img-fluid mb-4">
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Contact Us Section -->
+<section id="contact" class="py-5">
+    <div class="container">
+        <h2 class="display-4 text-center mb-5">Contact Us</h2>
+        <div class="row">
+            <div class="col-md-6">
+                <p class="lead">https://www.facebook.com/ctpvillacorta</p>
+                <p>BF Resort Village, Las Pinas city</p>
+                <p class="lead">Contact us:</p>
+                <p>Phone: +63 998-923-9547</p>
+                <p>Email: villacortatimothy@mipss.edu.ph</p>
+            </div>
+            <div class="col-md-6">
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Social Media Section -->
+<section id="social-media" class="py-5">
+    <div class="container text-center">
+        <!-- Logo -->
+        <div class="container-fluid text-center">
+        </div>
+
+        <h2 class="display-4 mb-5">Follow Me</h2>
+        <div class="mb-3">
+            <a href="https://www.facebook.com/villfps" class="btn btn-primary btn-lg me-3" target="_blank">
+                <i class="fab fa-facebook-f"></i>
+            </a>
+            <a href="https://www.instagram.com/villxd_" class="btn btn-primary btn-lg me-3" target="_blank">
+                <i class="fab fa-instagram"></i>
+            </a>
+            <a href="https://www.twitter.com/villfps" class="btn btn-primary btn-lg me-3" target="_blank">
+                <i class="fab fa-twitter"></i>
+            </a>
+            <a href="https://www.twitch.tv/villfps" class="btn btn-primary btn-lg me-3" target="_blank">
+                <i class="fab fa-twitch"></i>
+            </a>
+            <a href="https://www.tiktok.com/@villfps" class="btn btn-primary btn-lg" target="_blank">
+                <i class="fab fa-tiktok"></i>
+            </a>
+        </div>
+    </div>
+</section>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
